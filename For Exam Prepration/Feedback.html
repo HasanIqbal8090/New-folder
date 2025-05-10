@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Feedback.css">
+    <title>Feedback form</title>
+</head>
+<body>
+       
+    
+    <form action="/action.php" method="post">
+        Q1. create the following form in html
+    <br><br><br>
+
+        <h1><b>My Feedback Form</b></h1><br><br><br>
+        <ul>
+            <li>
+                <b>Name:</b>
+                <input type="text" name="Name" id="Name" required><br>
+        </li>
+    
+        <li>
+            <b>Email:</b>
+            <input type="email" name="Email" id="email" required>
+    </li>
+
+ 
+            <li>
+                <b>Password:</b>
+                <input type="password" name="password" id="password" required>
+        </li>
+    </ul>
+<ul>
+    <li>
+        <b>Please ckeck all the emotional that apply to you:</b>
+    </li>
+
+<ol><li>
+    <b>Angry</b>
+    <input type="checkbox" name="emotion" id="Angry"><br>
+</li>
+<li>
+    <b>Sad</b>
+    <input type="checkbox" name="emotion" id="Angry">
+</li>
+<li>
+    <b>Happy</b>
+    <input type="checkbox" name="emotion" id="Angry">
+</li>
+<li>
+    <b>Ambivalent</b>
+    <input type="checkbox" name="emotion" id="Angry">
+</li>
+
+</ol>
+</ul>
+<ul>
+    <li><b>How satisfied were you with our service?</b></li>
+    <ul>
+        <li>
+            <label for="id1">
+            <b>Very satisfied</b>
+                <input type="radio" name="service" id="id1">
+            </label>
+            </li>
+        <li>
+            <label for="id2">
+            <b>Satisfied</b>
+            <input type="radio" name="service" id="id2">
+        </label>
+        </li>
+        <li>
+            <label for="id3">
+            <b>Didn't care</b>
+            <input type="radio" name="service" id="id3">
+        </label>
+        </li>
+        <li>
+            <label for="id4">
+            <b>Dissatisfied</b>
+            <input type="radio" name="service" id="id4">
+        </label>
+        </li>
+        <li>
+            <label for="id5">
+            <b>Very dissatisfied</b>
+            <input type="radio" name="service" id="id5">
+        </label>
+        </li>
+    </ul>
+</ul>
+<ul>
+    <li>
+        <b>Further comments:</b>
+        <textarea name="Feedback" id="Feedback" required></textarea>
+    </li>
+    <li>
+        <b>Bio photo:</b>
+        <input type="text" name="bio photo" id="bio photo">
+        <input type="file" name="Bio photo" id="photo" required>
+        
+    </li>
+    
+    <li>
+        <b>Location visited:</b>
+        <select name="location visited" id="location" required>
+            
+            <option value="Select Location" >Select Location</option>
+         <option value="Mumbai">Mumbai</option>
+         <option value="Panjab">panjab</option>
+         <option value="Chennai">Chennai</option>
+         <option value="Odisha">Odisha</option>
+         <option value="Kerela">Kerela</option>
+         <option value="Nashik">Nashik</option>
+         <option value="Jharkhand">Jharkhand</option>
+         <option value="Bihar">Bihar</option>
+        </select>
+    </li>
+
+</ul>
+<ul>
+    <li>
+        <button onclick="alert(Thankyou)">Submit</button>
+    </li>
+</ul>
+    </form>
+</div>
+
+</body>
+</html>
